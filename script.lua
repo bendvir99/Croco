@@ -37,7 +37,7 @@ local function Type2(word, amount)
 	end
 end
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Bend", "Ocean")
+local Window = Library.CreateLib("Crocoz", "Ocean")
 
 -- Auto type
 
