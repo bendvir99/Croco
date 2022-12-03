@@ -36,7 +36,7 @@ local function Type2(word, amount)
 		wait(0.01)
 	end
 end
-if game.PlaceId == "11238892040" then
+if game.PlaceId == 11238892040 then
 	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 	local Window = Library.CreateLib("Crocoz", "Ocean")
 
