@@ -38,7 +38,7 @@ local function Type2(word, amount)
 end
 if game.PlaceId == 11238892040 then
 	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-	local Window = Library.CreateLib("Crocoz", "Ocean")
+	local Window = Library.CreateLib("Crocoz For Type Or Die", "Ocean")
 
 	-- Auto type
 
@@ -147,4 +147,16 @@ if game.PlaceId == 11238892040 then
 	Tools:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.RightControl, function()
 		Library:ToggleUI()
 	end)
+	local Other2 = Other:NewSection("Other")
+	Other2:NewLabel("Credits: Drogoz#8034 (Bend)")
+	Other2:NewLabel('Other Supported Games: "Ultimate Random Night"')
+elseif game.PlaceId == 86322978 then
+	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+	local Window = Library.CreateLib("Crocoz For Ultimate Random Night", "Ocean")
+	local TeleportTab = Window:NewTab("Teleport")
+	local Teleport = TeleportTab:NewSection("Teleport")
+	Teleport:NewButton("Office", "Teleports you to night guard office", function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.Position = Vector3.new(218, 4, -127)
+	end)
+	
 end
